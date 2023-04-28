@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Post Bookmark",
+  "version": "1.0",
+  "description": "現在のページを外部アプリに転送する拡張機能です。",
+  "permissions": ["activeTab", "scripting", "tabs", "storage"],
+  "action": {
+    "default_popup": "index.html"
+  }
+}
